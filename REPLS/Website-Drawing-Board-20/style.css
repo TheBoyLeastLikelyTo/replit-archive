@@ -1,0 +1,28 @@
+/* Just here for visuals */
+body {
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+
+canvas {
+  border-style: solid;
+  background-color: white;
+}
+
+.colorOption {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}

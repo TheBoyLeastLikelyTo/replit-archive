@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pipe Dream</title>
+<!-- Required meta tags for Bootstrap and JQuery -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- CSS imports -->
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/ui-lightness/jquery-ui.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
+<!-- JS Imports -->
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.js"></script>
+<!-- Rename the JQueryUI 'tooltip' and 'button' classes to 'uitooltip' and 'uibutton' so that they won't
+conflict with Bootstrap's 'tooltip' and 'button' classes. -->
+<script>
+$.widget.bridge('uitooltip', $.ui.tooltip);
+$.widget.bridge('uibutton', $.ui.button);
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="script.js"></script>
+
+</head>
+  <body>
+    <h1 id="title">Connect the Pipes!</h1>
+    <div id="game">
+      <div id="drop-zone"></div>
+      <div id="pieces">
+        <div class="pipe">
+          <h2 class="count">0</h2>
+          <div class="p1"></div>
+        </div>
+        <div class="pipe">
+          <h2 class="count">3</h2>
+          <div class="p2"></div>
+        </div>
+        <div class="pipe">
+          <h2 class="count">1</h2>
+          <div class="p3"></div>
+        </div>
+        <div class="pipe">
+          <h2 class="count">0</h2>
+          <div class="p4"></div>
+        </div>
+        <div class="pipe">
+          <h2 class="count">0</h2>
+          <div class="p5"></div>
+        </div>
+        <div class="pipe">
+          <h2 class="count">1</h2>
+          <div class="p6"></div>20
+        </div>
+		  </div>
+	  </div>
+  </body>
+</html>
